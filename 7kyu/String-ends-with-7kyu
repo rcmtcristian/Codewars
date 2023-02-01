@@ -1,0 +1,2 @@
+//Main solution 
+function solution(str, ending){ // var regex = new RegExp(ending + "$"); // return regex.test(str); return str.endsWith(ending) }
