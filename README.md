@@ -8,7 +8,7 @@ A repository filled with codewars challenges (kata).
 ![App Screenshot](https://i.imgur.com/gXGMU9T.png)
 
 ## Codetrack [Visit](https://www.codetrack.dev/)
-![App Screenshot](https://i.imgur.com/ybK4xZj.png)
+![App Screenshot](https://i.imgur.com/c0cvHpP.png)
 
 
 
