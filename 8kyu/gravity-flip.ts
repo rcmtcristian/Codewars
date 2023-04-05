@@ -20,13 +20,13 @@
 // * 'L', [1, 4, 5, 3, 5 ]  ->  [5, 5, 4, 3, 1]
 
 // Main Solution
-const flip = (d, a) => {
+const flip = (d: string, a: number[]) => {
   if (d === "R") {
     return a.sort((y, b) => y - b);
   } else if (d === "L") {
     return a.sort((y, b) => b - y);
   }
 };
-
 // Other Solutions
-const flip = (d, a) => a.sort((x, y) => (d === "R" ? x - y : y - x));
+const flip = (d: string, a: number[]): number[] =>
+  a.sort((x: number, y: number): number => (d === "R" ? x - y : y - x));

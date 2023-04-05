@@ -14,12 +14,17 @@
 // 5, 10, 2  -->  17
 // FUNDAMENTALS
 
-//My solution
+//Main solution
 
-const goals = (...n) => n.reduce((a, b) => a + b, 0);
+const goals = (...n: number[]): number =>
+  n.reduce((a: number, b: number) => a + b, 0);
 
-//
+// Other solutions
 
-function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+function goals(
+  laLigaGoals: number,
+  copaDelReyGoals: number,
+  championsLeagueGoals: number
+): number {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }

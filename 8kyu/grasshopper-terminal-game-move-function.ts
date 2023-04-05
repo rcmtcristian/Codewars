@@ -9,9 +9,9 @@
 // FUNDAMENTALS
 
 //my solution
-function move(position, roll) {
+function move(position: number, roll: number): number {
   return position + roll * 2;
 }
 
 //
-const move = (position, roll) => position + roll * 2;
+const move = (position: number, roll: number): number => position + roll * 2;
