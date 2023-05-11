@@ -17,16 +17,18 @@ Thank you for checking out my repository, and I hope you find my solutions usefu
 ![App Screenshot](https://i.imgur.com/LDrd2IX.png)
 ![App Screenshot](https://i.imgur.com/gXGMU9T.png)
 
-## Codetrack [Visit](https://www.codetrack.dev/)
+#
+## CodeTrack [Visit](https://www.codetrack.dev/)
 ![App Screenshot](https://i.imgur.com/c0cvHpP.png)
+### What is CodeTrack and How Does It Work?
+
+CodeTrack allows any developer to build a profile that represents their work, their skill and the type of work they are most interested in doing professionally. The CodeTrack profile is a compiliation of work my across several platforms like Github, Leetcode and Codewars.
 
 
 
 ## Language used
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
  
 ## Lessons learned
