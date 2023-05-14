@@ -1,2 +1,0 @@
-//Main solution 
-var number = function(busStops){ // Good Luck! return busStops.reduce((a, [b,c]) => a + b -c,0) }
