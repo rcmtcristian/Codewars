@@ -69,3 +69,4 @@ function mergeIntervals(intervals) {
   }
   return mergedIntervals;
 }
+
