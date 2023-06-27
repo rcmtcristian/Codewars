@@ -8,9 +8,12 @@
 
 // Main solution
 function persistence(num) {
-    let count = 0;
+  let count = 0;
   while (num > 9) {
-    num = num.toString().split('').reduce((a, b) => a * b, 1);
+    num = num
+      .toString()
+      .split("")
+      .reduce((a, b) => a * b, 1);
     count++;
   }
   return count;
@@ -18,14 +21,18 @@ function persistence(num) {
 
 // Alternative solution
 function persistence(num) {
-   var times = 0;
-   
-   num = num.toString();
-   
-   while (num.length > 1) {
-     times++;
-     num = num.split('').map(Number).reduce((a, b) => a * b).toString();
-   }
-   
-   return times;
+  var times = 0;
+
+  num = num.toString();
+
+  while (num.length > 1) {
+    times++;
+    num = num
+      .split("")
+      .map(Number)
+      .reduce((a, b) => a * b)
+      .toString();
+  }
+
+  return times;
 }
