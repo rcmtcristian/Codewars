@@ -82,3 +82,26 @@ function stringify(list, str = "") {
 
   return stringify(list.next, str + String(list.data) + " -> ");
 }
+
+// Other solution
+// Pass in an object (linked list)
+// Return a string
+
+// Return 'null' if no list is passed in
+// Let result be an array with list's head's value
+// Recurse through the linked in while a next node exists
+//Push each node's value to result array
+// Join result into a string with ' -> ' separator, and return it
+function stringify(list) {
+  if (!list) return "null";
+  let current = list;
+  const result = [current.data || 0];
+
+  while (current.next) {
+    current = current.next;
+    result.push(current.data == null ? "null" : current.data);
+  }
+  result.push("null");
+
+  return result.join(" -> ");
+}
